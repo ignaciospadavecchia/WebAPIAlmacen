@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "o1nS9LEmgxY9ZLxk7bDd0BxlWRPwBQO4y8UXafblR88=",
+  "Source": "WebAPIBiblioteca",
+  "BasePath": "_content/WebAPIBiblioteca",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\WebAPIAlmacen.csproj",
+      "Version": 2,
+      "Source": "WebAPIAlmacen",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPIAlmacen\\wwwroot",
+      "Source": "WebAPIAlmacen",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+      "BasePath": "_content/WebAPIAlmacen",
+      "Pattern": "**"
+    },
+    {
+      "Name": "WebAPIBiblioteca\\wwwroot",
+      "Source": "WebAPIBiblioteca",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
+      "BasePath": "_content/WebAPIBiblioteca",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\Archivo.txt",
+      "SourceId": "WebAPIAlmacen",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+      "BasePath": "_content/WebAPIAlmacen",
+      "RelativePath": "Archivo.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Archivo.txt"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\imagenes\\otroportatil.webp",
+      "SourceId": "WebAPIAlmacen",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+      "BasePath": "_content/WebAPIAlmacen",
+      "RelativePath": "imagenes/otroportatil.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\otroportatil.webp"
+    }
+  ]
+}
