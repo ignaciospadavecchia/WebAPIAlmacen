@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"ContentRoots":["C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\"],"Root":{"Children":{"Archivo.txt":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"Archivo.txt"},"Patterns":null},"log.txt":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"log.txt"},"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
+=======
+{"ContentRoots":["C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\","C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\"],"Root":{"Children":{"_content":{"Children":{"WebAPIAlmacen":{"Children":{"Archivo.txt":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"Archivo.txt"},"Patterns":null},"imagenes":{"Children":{"otroportatil.webp":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"imagenes/otroportatil.webp"},"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":2}]}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":1,"Pattern":"**","Depth":0}]}}
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059

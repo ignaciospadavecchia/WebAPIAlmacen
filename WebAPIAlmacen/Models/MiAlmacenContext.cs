@@ -13,8 +13,11 @@ public partial class MiAlmacenContext : DbContext
 
     public virtual DbSet<Familia> Familias { get; set; }
 
+<<<<<<< HEAD
     public virtual DbSet<Log> Logs { get; set; }
 
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     public virtual DbSet<Operacione> Operaciones { get; set; }
 
     public virtual DbSet<Producto> Productos { get; set; }
@@ -28,11 +31,14 @@ public partial class MiAlmacenContext : DbContext
             entity.Property(e => e.Nombre).HasMaxLength(100);
         });
 
+<<<<<<< HEAD
         modelBuilder.Entity<Log>(entity =>
         {
             entity.Property(e => e.TimeStamp).HasColumnType("datetime");
         });
 
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         modelBuilder.Entity<Operacione>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Operacio__3214EC07360F5DA3");

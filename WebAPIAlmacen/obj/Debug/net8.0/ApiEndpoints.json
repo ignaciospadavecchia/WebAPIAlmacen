@@ -242,6 +242,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "ContainingType": "WebAPIAlmacen.Controllers.LogController",
     "Method": "GetLogs",
     "RelativePath": "api/Log",
@@ -252,6 +253,8 @@
     "ReturnTypes": []
   },
   {
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     "ContainingType": "WebAPIAlmacen.Controllers.ProductosController",
     "Method": "AgregarProducto",
     "RelativePath": "api/Productos",

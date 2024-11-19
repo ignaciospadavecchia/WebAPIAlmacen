@@ -1,13 +1,42 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "bKaC5gollSTsR++8dDqA5TcNY94oiT0UhX+Ztc1RCE8=",
+=======
+  "Hash": "o1nS9LEmgxY9ZLxk7bDd0BxlWRPwBQO4y8UXafblR88=",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
   "Source": "WebAPIBiblioteca",
   "BasePath": "_content/WebAPIBiblioteca",
   "Mode": "Default",
   "ManifestType": "Build",
+<<<<<<< HEAD
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
+=======
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\WebAPIAlmacen.csproj",
+      "Version": 2,
+      "Source": "WebAPIAlmacen",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPIAlmacen\\wwwroot",
+      "Source": "WebAPIAlmacen",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+      "BasePath": "_content/WebAPIAlmacen",
+      "Pattern": "**"
+    },
+    {
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       "Name": "WebAPIBiblioteca\\wwwroot",
       "Source": "WebAPIBiblioteca",
       "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
@@ -17,11 +46,19 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\Archivo.txt",
       "SourceId": "WebAPIBiblioteca",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
       "BasePath": "_content/WebAPIBiblioteca",
+=======
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\Archivo.txt",
+      "SourceId": "WebAPIAlmacen",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+      "BasePath": "_content/WebAPIAlmacen",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       "RelativePath": "Archivo.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -36,12 +73,21 @@
       "OriginalItemSpec": "wwwroot\\Archivo.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\log.txt",
       "SourceId": "WebAPIBiblioteca",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
       "BasePath": "_content/WebAPIBiblioteca",
       "RelativePath": "log.txt",
+=======
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\imagenes\\otroportatil.webp",
+      "SourceId": "WebAPIAlmacen",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+      "BasePath": "_content/WebAPIAlmacen",
+      "RelativePath": "imagenes/otroportatil.webp",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +98,11 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\log.txt"
+=======
+      "OriginalItemSpec": "wwwroot\\imagenes\\otroportatil.webp"
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     }
   ]
 }

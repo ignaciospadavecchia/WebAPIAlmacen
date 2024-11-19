@@ -12,6 +12,10 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
+<<<<<<< HEAD
+=======
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("WebAPIAlmacen")]
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

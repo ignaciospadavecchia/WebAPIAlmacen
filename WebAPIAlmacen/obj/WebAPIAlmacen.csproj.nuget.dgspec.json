@@ -56,6 +56,7 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+<<<<<<< HEAD
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -68,6 +69,8 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

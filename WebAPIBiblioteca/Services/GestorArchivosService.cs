@@ -56,6 +56,9 @@
             return urlParaBD;
         }
     }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 }

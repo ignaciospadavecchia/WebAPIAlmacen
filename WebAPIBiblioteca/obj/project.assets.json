@@ -1582,6 +1582,26 @@
             "rid": "win"
           }
         }
+<<<<<<< HEAD
+=======
+      },
+      "WebAPIAlmacen/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/WebAPIAlmacen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIAlmacen.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       }
     }
   },
@@ -4465,13 +4485,26 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+<<<<<<< HEAD
+=======
+    },
+    "WebAPIAlmacen/1.0.0": {
+      "type": "project",
+      "path": "../WebAPIAlmacen/WebAPIAlmacen.csproj",
+      "msbuildProject": "../WebAPIAlmacen/WebAPIAlmacen.csproj"
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
+<<<<<<< HEAD
       "Swashbuckle.AspNetCore >= 6.6.2"
+=======
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "WebAPIAlmacen >= 1.0.0"
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     ]
   },
   "packageFolders": {
@@ -4501,7 +4534,15 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+<<<<<<< HEAD
           "projectReferences": {}
+=======
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\WebAPIAlmacen.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\WebAPIAlmacen.csproj"
+            }
+          }
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         }
       },
       "warningProperties": {

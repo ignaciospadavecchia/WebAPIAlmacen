@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIAlmacen.Services;
 using WebAPIAlmacen.Services.Demo;
 
+=======
+﻿using Microsoft.AspNetCore.Mvc;
+using WebAPIAlmacen.Services;
+using WebAPIAlmacen.Services.Demo;
+
+
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 namespace WebAPIAlmacen.Controllers
 {
     [Route("api/[controller]")]
@@ -14,8 +22,12 @@ namespace WebAPIAlmacen.Controllers
         private readonly SingletonService singletonService;
         private readonly TestService testService;
         private readonly ContadorPeticionesService contadorPeticionesService;
+<<<<<<< HEAD
         public TestServicesController(TransientService transientService, ScopedService scopedService, SingletonService singletonService, TestService testService,
             ContadorPeticionesService contadorPeticionesService)
+=======
+        public TestServicesController(TransientService transientService, ScopedService scopedService, SingletonService singletonService, TestService testService, ContadorPeticionesService contadorPeticionesService)
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         {
             this.transientService = transientService;
             this.scopedService = scopedService;
@@ -49,6 +61,9 @@ namespace WebAPIAlmacen.Controllers
         {
             return Ok(contadorPeticionesService.GetContador());
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     }
 }

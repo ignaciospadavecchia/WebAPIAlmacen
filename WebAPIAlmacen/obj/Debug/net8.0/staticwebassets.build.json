@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "8h4v0mdSTxfwELGEGMgQVlqLYj6Vj1g3cV7zYBC0mmc=",
+=======
+  "Hash": "J/9ol49hXssU+Qwsn6k2wOKAWDzAg943MfZ53XSU0e0=",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
   "Source": "WebAPIAlmacen",
   "BasePath": "_content/WebAPIAlmacen",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "WebAPIAlmacen\\wwwroot",
       "Source": "WebAPIAlmacen",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Docente\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       "BasePath": "_content/WebAPIAlmacen",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Docente\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\Archivo.txt",
       "SourceId": "WebAPIAlmacen",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Docente\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\Archivo.txt",
+      "SourceId": "WebAPIAlmacen",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       "BasePath": "_content/WebAPIAlmacen",
       "RelativePath": "Archivo.txt",
       "AssetKind": "All",
@@ -36,10 +51,17 @@
       "OriginalItemSpec": "wwwroot\\Archivo.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Docente\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\imagenes\\otroportatil.webp",
       "SourceId": "WebAPIAlmacen",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Docente\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\imagenes\\otroportatil.webp",
+      "SourceId": "WebAPIAlmacen",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
       "BasePath": "_content/WebAPIAlmacen",
       "RelativePath": "imagenes/otroportatil.webp",
       "AssetKind": "All",
@@ -53,6 +75,7 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\otroportatil.webp"
+<<<<<<< HEAD
     },
     {
       "Identity": "C:\\Users\\Docente\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\wwwroot\\imagenes\\portatil.jpg",
@@ -91,6 +114,8 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\log.txt"
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     }
   ]
 }

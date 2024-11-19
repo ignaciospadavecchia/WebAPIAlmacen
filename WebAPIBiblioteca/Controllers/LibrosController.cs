@@ -15,11 +15,20 @@ namespace WebAPIBiblioteca.Controllers
         private readonly MiBibliotecaContext context;
         private readonly OperacionesService operacionesService;
         private readonly GestorArchivosService gestorArchivosService;
+<<<<<<< HEAD
         public LibrosController(MiBibliotecaContext context, OperacionesService operacionesService, GestorArchivosService gestorArchivosService)
+=======
+        private readonly ContadorDeLibrosService contadorDeLibrosService;
+        public LibrosController(MiBibliotecaContext context, OperacionesService operacionesService, GestorArchivosService gestorArchivosService, ContadorDeLibrosService contadorDeLibrosService)
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         {
             this.context = context;
             this.operacionesService = operacionesService;
             this.gestorArchivosService = gestorArchivosService;
+<<<<<<< HEAD
+=======
+            this.contadorDeLibrosService = contadorDeLibrosService;
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         }
 
         [HttpGet("/libros")]
@@ -39,6 +48,10 @@ namespace WebAPIBiblioteca.Controllers
             }
             var libros = await context.Libros.ToListAsync();
             await operacionesService.AddOperacion("Consultar", "Libros");
+<<<<<<< HEAD
+=======
+            contadorDeLibrosService.Incrementar();
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             return Ok(libros);
         }
 
@@ -297,5 +310,9 @@ namespace WebAPIBiblioteca.Controllers
             await context.SaveChangesAsync();
             return Ok();
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     }
 }

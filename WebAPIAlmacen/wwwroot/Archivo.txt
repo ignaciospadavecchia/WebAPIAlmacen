@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Proceso iniciado a las: 18/11/2024 10:22:34
+=======
+Proceso iniciado
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 Camisa
 Camisa
 Camisa
@@ -10,6 +14,7 @@ Camisa
 Camisa
 Camisa
 Camisa
+<<<<<<< HEAD
 Proceso iniciado a las: 18/11/2024 10:27:37
 Camisa
 Camisa
@@ -19,3 +24,19 @@ Proceso iniciado a las: 18/11/2024 10:28:28
 Camisa
 Camisa
 Proceso finalizado a las: 18/11/2024 10:28:43
+=======
+Camisa
+Camisa
+Camisa
+Camisa
+Camisa
+Proceso iniciado
+Camisa
+Camisa
+Camisa
+Proceso finalizado
+Proceso iniciado
+Camisa
+Camisa
+Proceso finalizado a las 18/11/2024 10:29:39
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059

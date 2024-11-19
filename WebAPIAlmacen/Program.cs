@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using Serilog;
 using System.Text.Json.Serialization;
 using WebAPIAlmacen.Middlewares;
+=======
+using System.Text.Json.Serialization;
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 using WebAPIAlmacen.Models;
 using WebAPIAlmacen.Services;
 using WebAPIAlmacen.Services.Demo;
@@ -33,6 +37,7 @@ builder.Services.AddTransient<OperacionesService>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<GestorArchivosService>();
 builder.Services.AddSingleton<ContadorPeticionesService>();
+<<<<<<< HEAD
 //builder.Services.AddHostedService<TareaProgramadaService>();
 
 
@@ -48,6 +53,9 @@ builder.Services.AddCors(options =>
         builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
     });
 });
+=======
+builder.Services.AddHostedService<TareaProgramadaService>();
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 
 var app = builder.Build();
 
@@ -59,8 +67,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+<<<<<<< HEAD
 app.UseCors();
 app.UseMiddleware<LogMiddleware>();
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 app.UseStaticFiles();
 app.UseAuthorization();
 

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "j1xxmBIDVnw=",
+=======
+  "dgSpecHash": "rU8URIeop2A=",
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\WebAPIBiblioteca.csproj",
   "expectedPackageFiles": [

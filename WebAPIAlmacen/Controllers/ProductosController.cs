@@ -15,9 +15,13 @@ namespace WebAPIAlmacen.Controllers
         private readonly GestorArchivosService gestorArchivosService;
         private readonly ContadorPeticionesService contadorPeticionesService;
 
+<<<<<<< HEAD
 
         public ProductosController(MiAlmacenContext context, GestorArchivosService gestorArchivosService,
              ContadorPeticionesService contadorPeticionesService)
+=======
+        public ProductosController(MiAlmacenContext context, GestorArchivosService gestorArchivosService, ContadorPeticionesService contadorPeticionesService)
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         {
             this.context = context;
             this.gestorArchivosService = gestorArchivosService;
@@ -27,7 +31,10 @@ namespace WebAPIAlmacen.Controllers
         [HttpGet("entredosprecios/{desde}/{hasta}")]
         public async Task<ActionResult> GetProductosEntreDosPrecios([FromRoute] decimal desde, [FromRoute] decimal hasta)
         {
+<<<<<<< HEAD
             contadorPeticionesService.Incrementar();
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             var productos =
                 await context.Productos.Where(x => x.Precio >= desde && x.Precio <= hasta).ToListAsync();
 
@@ -37,7 +44,10 @@ namespace WebAPIAlmacen.Controllers
         [HttpGet("entredosprecios")]
         public async Task<ActionResult> GetProductosEntreDosPreciosQueryString([FromQuery] decimal desde, [FromQuery] decimal hasta)
         {
+<<<<<<< HEAD
             contadorPeticionesService.Incrementar();
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             var productos =
                 await context.Productos.Where(x => x.Precio >= desde && x.Precio <= hasta).ToListAsync();
 
@@ -315,6 +325,22 @@ namespace WebAPIAlmacen.Controllers
             return Ok();
         }
 
+<<<<<<< HEAD
 
+=======
+        public class ContadorPeticionesService
+        {
+            int Contador = 0;
+            public void Incrementar()
+            {
+                Contador++;
+            }
+
+            public int GetContador()
+            {
+                return Contador;
+            }
+        }
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
     }
 }

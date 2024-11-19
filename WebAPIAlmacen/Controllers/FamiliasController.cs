@@ -17,20 +17,30 @@ namespace WebAPIAlmacen.Controllers
         private readonly MiAlmacenContext context;
         private readonly OperacionesService operacionesService;
         private readonly ContadorPeticionesService contadorPeticionesService;
+<<<<<<< HEAD
         private readonly ILogger<FamiliasController> logger;
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
 
         // Inyección de dependencia.
         // Como nuestro controller depende de MiAlmacenContext para poder desempeñar sus funciones, lo podemos inyectar en el constructor
         // La inyección de dependencia trae al constructor de la clase todas las dependencias que necesita y las pasa a variables privadas
         // de la clase
 
+<<<<<<< HEAD
         public FamiliasController(MiAlmacenContext context, OperacionesService operacionesService,
             ContadorPeticionesService contadorPeticionesService, ILogger<FamiliasController> logger)
+=======
+        public FamiliasController(MiAlmacenContext context, OperacionesService operacionesService, ContadorPeticionesService contadorPeticionesService)
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         {
             this.context = context;
             this.operacionesService = operacionesService;
             this.contadorPeticionesService = contadorPeticionesService;
+<<<<<<< HEAD
             this.logger = logger;
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
         }
 
         // Sin inyección de dependencia (mala práctica)
@@ -71,7 +81,10 @@ namespace WebAPIAlmacen.Controllers
         [HttpGet("asincrona")]
         public async Task<List<Familia>> GetFamiliasVersionAsincrona()
         {
+<<<<<<< HEAD
             contadorPeticionesService.Incrementar();
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             return await context.Familias.ToListAsync();
         }
 
@@ -79,7 +92,10 @@ namespace WebAPIAlmacen.Controllers
         [HttpGet("codigorespuesta")]
         public async Task<ActionResult> GetFamiliasVersionCodigoRespuesta()
         {
+<<<<<<< HEAD
             contadorPeticionesService.Incrementar();
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             var familias = await context.Familias.ToListAsync();
             return Ok(familias);
         }
@@ -98,7 +114,10 @@ namespace WebAPIAlmacen.Controllers
         [HttpGet("{id:int}")] // api/familias/1 -->Si llamamos a api/familias/juan da 404 por la restricción
         public async Task<ActionResult<Familia>> GetFamiliaPorId(int id)
         {
+<<<<<<< HEAD
             logger.LogInformation(id.ToString());
+=======
+>>>>>>> 65241861d8a4d94baece835ef37c9cf4ddd2a059
             await operacionesService.AddOperacion("Consultar familias por id " + id, "Familias");
             var familia = await context.Familias.FindAsync(id);
             if (familia == null)
