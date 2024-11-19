@@ -1,0 +1,17 @@
+::1 - /todasfamilias
+::1 - /todasfamilias
+::1 - /todasfamilias
+::1 - /api/Familias/5
+::1 - /api/Familias/1
+::1 - /api/Familias/2
+::1 - /api/Familias/2
+::1 - /api/Familias/2
+::1 - /api/Familias/3
+::1 - /api/Familias/1
+::1 - /api/Familias/2
+::1 - /api/Familias/2
+::1 - /todasfamilias
+::1 - /api/Familias/1
+::1 - /api/Productos/entredosprecios
+::1 - /api/Log
+::1 - /api/Log

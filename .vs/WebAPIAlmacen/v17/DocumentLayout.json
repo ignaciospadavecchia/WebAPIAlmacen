@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82FB08BD-02C0-49A1-B59E-73EAB4A12718}|WebAPIAlmacen\\WebAPIAlmacen.csproj|c:\\users\\user\\desktop\\webapialmacen\\webapialmacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82FB08BD-02C0-49A1-B59E-73EAB4A12718}|WebAPIAlmacen\\WebAPIAlmacen.csproj|solutionrelative:webapialmacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD45A030-C15A-46C6-9C4A-5AA833744BB4}|WebAPIBiblioteca\\WebAPIBiblioteca.csproj|c:\\users\\user\\desktop\\webapialmacen\\webapibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD45A030-C15A-46C6-9C4A-5AA833744BB4}|WebAPIBiblioteca\\WebAPIBiblioteca.csproj|solutionrelative:webapibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD45A030-C15A-46C6-9C4A-5AA833744BB4}|WebAPIBiblioteca\\WebAPIBiblioteca.csproj|c:\\users\\user\\desktop\\webapialmacen\\webapibiblioteca\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD45A030-C15A-46C6-9C4A-5AA833744BB4}|WebAPIBiblioteca\\WebAPIBiblioteca.csproj|solutionrelative:webapibiblioteca\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD45A030-C15A-46C6-9C4A-5AA833744BB4}|WebAPIBiblioteca\\WebAPIBiblioteca.csproj|c:\\users\\user\\desktop\\webapialmacen\\webapibiblioteca\\filters\\filtrodeexcepcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD45A030-C15A-46C6-9C4A-5AA833744BB4}|WebAPIBiblioteca\\WebAPIBiblioteca.csproj|solutionrelative:webapibiblioteca\\filters\\filtrodeexcepcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPIAlmacen\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIAlmacen\\Program.cs",
+              "RelativeToolTip": "WebAPIAlmacen\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAD0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:09:42.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebAPIBiblioteca\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\appsettings.Development.json",
+              "RelativeToolTip": "WebAPIBiblioteca\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-19T09:54:10.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FiltroDeExcepcion.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\Filters\\FiltroDeExcepcion.cs",
+              "RelativeDocumentMoniker": "WebAPIBiblioteca\\Filters\\FiltroDeExcepcion.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\Filters\\FiltroDeExcepcion.cs",
+              "RelativeToolTip": "WebAPIBiblioteca\\Filters\\FiltroDeExcepcion.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:53:36.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPIBiblioteca\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\Program.cs",
+              "RelativeToolTip": "WebAPIBiblioteca\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:48:05.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

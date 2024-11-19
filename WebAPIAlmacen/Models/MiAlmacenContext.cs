@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+
+namespace WebAPIAlmacen.Models;
+
+public partial class MiAlmacenContext : DbContext
+{
+    public MiAlmacenContext(DbContextOptions<MiAlmacenContext> options)
+        : base(options)
+    {
+    }
+
+    public virtual DbSet<Familia> Familias { get; set; }
+
+    public virtual DbSet<Log> Logs { get; set; }
+
+    public virtual DbSet<Operacione> Operaciones { get; set; }
+
+    public virtual DbSet<Producto> Productos { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Familia>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Familias__3214EC074BE57CFE");
+
+            entity.Property(e => e.Nombre).HasMaxLength(100);
+        });
+
+        modelBuilder.Entity<Log>(entity =>
+        {
+            entity.Property(e => e.TimeStamp).HasColumnType("datetime");
+        });
+
+        modelBuilder.Entity<Operacione>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Operacio__3214EC07360F5DA3");
+
+            entity.Property(e => e.Controller).HasMaxLength(50);
+            entity.Property(e => e.FechaAccion).HasColumnType("datetime");
+            entity.Property(e => e.Ip).HasMaxLength(50);
+            entity.Property(e => e.Operacion).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<Producto>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Producto__3214EC078B294BCE");
+
+            entity.Property(e => e.FotoUrl).HasColumnName("FotoURL");
+            entity.Property(e => e.Nombre).HasMaxLength(150);
+            entity.Property(e => e.Precio).HasColumnType("decimal(9, 2)");
+
+            entity.HasOne(d => d.Familia).WithMany(p => p.Productos)
+                .HasForeignKey(d => d.FamiliaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Familias_Productos");
+        });
+
+        OnModelCreatingPartial(modelBuilder);
+    }
+
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+}

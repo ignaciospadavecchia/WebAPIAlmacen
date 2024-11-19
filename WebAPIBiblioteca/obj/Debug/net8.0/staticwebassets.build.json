@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "bKaC5gollSTsR++8dDqA5TcNY94oiT0UhX+Ztc1RCE8=",
+  "Source": "WebAPIBiblioteca",
+  "BasePath": "_content/WebAPIBiblioteca",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPIBiblioteca\\wwwroot",
+      "Source": "WebAPIBiblioteca",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
+      "BasePath": "_content/WebAPIBiblioteca",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\Archivo.txt",
+      "SourceId": "WebAPIBiblioteca",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
+      "BasePath": "_content/WebAPIBiblioteca",
+      "RelativePath": "Archivo.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Archivo.txt"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\log.txt",
+      "SourceId": "WebAPIBiblioteca",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebAPIAlmacen\\WebAPIBiblioteca\\wwwroot\\",
+      "BasePath": "_content/WebAPIBiblioteca",
+      "RelativePath": "log.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log.txt"
+    }
+  ]
+}
